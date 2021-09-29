@@ -213,7 +213,7 @@ function intervalFunc() {
 }
 
 //La fonction 'intervalFunc' s'éxécutera toute les x milisecondes, soit toute les 10 secondes ici:
-// setInterval(intervalFunc, 10000);
+setInterval(intervalFunc, 10000);
 
 // Delete a patient with the specified patientId in the request
 exports.delete = (req, res) => {
